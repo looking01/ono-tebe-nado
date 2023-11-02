@@ -7,20 +7,14 @@
 
 .header {
   display: grid;
-  grid-template-columns: repeat(10, 1fr);
-  grid-template-rows: 109px;
-  align-items: center;
-  justify-items: center;
+  grid-template-columns: 596px 148px 596px;
   padding: 92px 50px;
 }
 
 .header__menu {
-  display: flex;
+  display: block;
   flex-direction: row;
-  justify-self: start;
-  margin-bottom: 15px;
-  grid-column-start: 1;
-  grid-column-end: 5;
+  align-self: center;
 }
 
 .header__link-list {
@@ -48,15 +42,13 @@
 }
 
 .header__logo {
-  grid-column-start: 5;
-  grid-column-end: 7;
-  width: 138px;
-  margin-bottom: 13px;
-  margin-left: 1px;
+    display: block;
+    width: 148px;
+    justify-content: stretch;
 }
 
 .header__logo-image {
-  align-content: center;
+
 }
 
 .address {
@@ -65,15 +57,14 @@
   font-weight: 400;
   line-height: 1.35;
   color: #000;
-  align-self: self-start;
   justify-self: end;
-  grid-column-start: 9;
-  grid-column-end: 11;
+  align-self: center;
 }
 
 .header__address {
   display: block;
   width: 240px;
+
 }
 
 .header__address a {
