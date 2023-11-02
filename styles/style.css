@@ -7,14 +7,16 @@
 
 .header {
   display: grid;
-  grid-template-columns: 596px 148px 596px;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: 109px;
+  justify-content: space-between;
+  align-content: center;
   padding: 92px 50px;
 }
 
 .header__menu {
   display: block;
   flex-direction: row;
-  align-self: center;
 }
 
 .header__link-list {
@@ -43,11 +45,8 @@
 
 .header__logo {
     display: block;
-    width: 148px;
-    justify-content: stretch;
-}
-
-.header__logo-image {
+    width: 136px;
+    margin-right: 148px;
 
 }
 
@@ -71,3 +70,4 @@
   text-decoration: none;
   border-bottom: 1px solid;
 }
+
