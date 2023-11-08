@@ -117,8 +117,16 @@
 .aligned-text_right {
     text-align: right;
     line-height: 1;
-
 }
+
+.text_letter-spacing {
+  letter-spacing: 60px;
+}
+
+.text_letter-spacing__reset {
+  letter-spacing: 0;
+}
+
 
 .cover__description {
     display: flex;
