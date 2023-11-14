@@ -214,7 +214,6 @@
   text-decoration-line: underline;
   text-transform: uppercase;
   z-index: 1;
-  flex-basis: 192px;
 }
 
 .card__text {
